@@ -1,0 +1,4 @@
+- name: Install Common  packages or  Softwares
+  yum:
+   name: ['vim','wget','git', 'zip']
+   state: present

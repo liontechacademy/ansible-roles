@@ -1,0 +1,12 @@
+---
+# This playbook deploys a simple standalone Tomcat 7 server.
+
+- hosts: web
+  become: yes
+  roles:
+   - common
+   - tomcat
+- hosts: web
+  become: yes
+  roles:
+   - common
